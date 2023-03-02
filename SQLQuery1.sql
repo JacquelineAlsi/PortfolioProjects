@@ -7,7 +7,6 @@ ORDER BY 1,2;
    
 
 --looking at total cases vs. population in the United States  
-
 --shows what percentage of the US population has been infected with Covid  
 
 SELECT location,date,population,total_cases,  
