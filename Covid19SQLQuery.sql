@@ -4,7 +4,6 @@ FROM PortfolioProject.dbo.CovidDeaths
 WHERE continent IS NOT NUll   
 ORDER BY 1,2;      
 
-   
 
 --looking at total cases vs. population in the United States  
 --shows what percentage of the US population has been infected with Covid  
@@ -15,7 +14,6 @@ FROM PortfolioProject.dbo.CovidDeaths
 WHERE location = 'United States' AND continent IS NOT NUll  
 ORDER BY 1,2       
 
-   
 
 --looking at countries with highest infection rate compared to population  
 
@@ -25,7 +23,6 @@ FROM PortfolioProject.dbo.CovidDeaths
 GROUP BY location, population  
 ORDER BY percent_popu_infected DESC;       
 
-   
 
 --looking at countries with highest death count per population  
 --we are not getting all the continents as a whole, for example north america is missing canada...  
@@ -36,8 +33,7 @@ WHERE continent IS NOT NUll
 GROUP BY location  
 ORDER BY total_death_count DESC;     
 
-   
-   
+    
 --showing continents in order of highest to lowest death rate per population--canada is now included in north america. The current data contains Income bracket reported in the location column, which has been filtered out in this query.  
 
 SELECT location, MAX(CAST(total_deaths AS int)) AS total_death_count   
@@ -46,8 +42,7 @@ WHERE continent IS NULL AND location NOT LIKE'%income'
 GROUP BY location   
 ORDER BY total_death_count DESC;        
 
-  
-  
+   
 
 --original, keep just in case for VIZ in  tableau for drill down effect (canada not included in NAmerica)  
 --SELECT continent, MAX(CAST(total_deaths AS int)) AS total_death_count  
@@ -56,8 +51,7 @@ ORDER BY total_death_count DESC;
 --GROUP BY continent  
 --ORDER BY total_death_count DESC     
 
-  
-  
+ 
 
 --looking at total cases vs total deaths globally by day  
 
@@ -68,7 +62,6 @@ WHERE continent IS NOT NUll
 GROUP BY date   
 ORDER BY 1;      
 
-   
 
 --looking at total cases vs total deaths globally  
 
@@ -85,7 +78,6 @@ SELECT *
 FROM PortfolioProject.dbo.CovidVaccinations  
 
   
-  
 --looking at total population vs. total vaccination with a rolling vaccination sum  
 
 SELECT CD.continent, CD.location, CD.date, population,CV.new_vaccinations,   
@@ -99,9 +91,7 @@ WHERE CD.continent IS NOT NULL
 ORDER BY 2,3; 
 
  
-
- 
- --looking at vaccination rate using CTE  
+--looking at vaccination rate using CTE  
 
 WITH popu_vax (continent,location,date,population,new_vaccinations,rolling_sum_vaccinations)  
 AS  
@@ -134,7 +124,7 @@ new_vaccinations numeric,
 rolling_sum_vaccinations numeric 
 ) 
 
-  
+
 
 INSERT INTO #PercentPopVax 
 SELECT CD.continent, CD.location, CD.date, population, CV.new_vaccinations,     
@@ -150,7 +140,7 @@ WHERE CD.continent IS NOT NULL
 SELECT *,(rolling_sum_vaccinations/population)*100 AS rate_vaccinations   
 FROM #PercentPopVax; 
 
- 
+
  
 --creating views for later visualizations 
 
