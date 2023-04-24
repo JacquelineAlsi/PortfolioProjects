@@ -33,9 +33,6 @@ FROM Covid.dbo.CovidDeaths
 WHERE continent IS NOT NULL  
 GROUP BY location, population  
 ORDER BY percent_popu_infected DESC;        
--- included WHERE continent IS NOT NULL because some continents are listed in the location column. 
--- Cyprus has the highest infection rate at 72% 
--- The US ranks 56 with an infection rate at 31% 
 
 
 
@@ -56,7 +53,6 @@ FROM Covid.dbo.CovidDeaths
 WHERE continent IS NOT NUll  
 GROUP BY location  
 ORDER BY total_death_count DESC;     
---The United States ranks 1st with a death count of 1,119,560 
 
     
     
@@ -71,7 +67,6 @@ AND location NOT LIKE'%income'
 AND location NOT IN ('World', 'European Union', 'International') 
 GROUP BY location    
 ORDER BY total_death_count DESC;          
---Europe has the highest death count at 2,032,535 and Oceania has the least at 24,754
 
 
  
@@ -82,7 +77,6 @@ SUM(CAST(new_deaths AS int))/SUM(new_cases) * 100 AS death_percentage
 FROM Covid.dbo.CovidDeaths   
 WHERE continent IS NOT NUll   
 ORDER BY 1,2;      
---The global death percentage is 1.01% 
     
     
     
