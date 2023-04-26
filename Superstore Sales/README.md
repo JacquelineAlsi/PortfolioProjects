@@ -16,6 +16,10 @@ Exploring and visualizing Tableau sample data for a fictitious Superstore. They 
 
 - Tables, bookcases and supplies are money losers 
 
+![map](https://user-images.githubusercontent.com/126612115/234623461-d51270ee-8e3d-4468-ad1c-904dc2c7a884.png)
+![subcat](https://user-images.githubusercontent.com/126612115/234623560-e5b1d170-7635-441e-8cb3-e3ba730a60e2.png)
+
+
 ### Recommendations: 
 
 - There is an opportunity for sales growth in the south and cental United States specially in the home office segment. Concentrating their marketing in these areas and to small businesses may increase the company's visibility and thus sales.  
