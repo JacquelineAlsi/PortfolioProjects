@@ -14,7 +14,10 @@ Exploring and visualizing Seattle Airbnb Listing data in Tableau. Analyzing this
 
 - The closer you get to the Downtown Seattle area the higher the average price per listing  
 
- 
+![bedrooms](https://user-images.githubusercontent.com/126612115/234611675-cc5322a6-cad0-4300-881a-6c8b65d0de6a.png)
+![map](https://user-images.githubusercontent.com/126612115/234615575-d121af3f-8b23-4d19-8559-04376b090332.png)
+
+
 
 ### Recommendations: 
 
