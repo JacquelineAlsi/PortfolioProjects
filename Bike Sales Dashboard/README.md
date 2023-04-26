@@ -1,6 +1,6 @@
 #  Bike Sales 
 
-Explored bike sales data to determine how demographics such as income, gender, age, occupation and various others influenced consumer bike purchasing decisions. Used Excel tools to clean and manipulate the data, created pivot tables and an interactive Dashboard. View the [Bike Sales Dashboard](https://1drv.ms/x/s!AnML4tgV0jQmgpJ59qHvaRUE9mLliA). This was a guided project as part of the Data Analyst Bootcamp.
+Explored bike sales data to determine how demographics such as income, gender, age, occupation and various others influenced consumer bike purchasing decisions. Used Excel tools to clean and manipulate the data, created pivot tables and an interactive Dashboard. View the interactive [Bike Sales Dashboard](https://1drv.ms/x/s!AnML4tgV0jQmgpJ59qHvaRUE9mLliA). This was a guided project as part of the Data Analyst Bootcamp.
 
 ### Insights: 
 
