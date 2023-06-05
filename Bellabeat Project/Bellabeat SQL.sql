@@ -118,7 +118,7 @@ GROUP BY 1,2,3;
 
 
 --Average activity level and sleep by day of week
-SELECT activity.DayOfWeek AS day_of_week,   
+SELECT activity.ActivityDate AS day_of_week,   
 ROUND(AVG(SedentaryMinutes)) AS sedentary_minutes,    
 ROUND(AVG(LightlyActiveMinutes)) AS lightly_active_minutes,     
 ROUND(AVG(FairlyActiveMinutes)) AS fairly_active_minutes,     
@@ -126,9 +126,9 @@ ROUND(AVG(VeryActiveMinutes)) AS very_active_minutes,
 ROUND(AVG(TotalMinutesAsleep/60)) As hours_asleep       
 FROM `portfolioprojects2023.bellabeat.DailyActivity` AS activity    
 JOIN `portfolioprojects2023.bellabeat.SleepDay` AS sleep    
-ON activity.DayOfWeek = sleep.DayOfWeek   
+ON activity.ActivityDate = sleep.SleepDay   
 GROUP BY 1  
-ORDER BY 1; 
+ORDER BY 1;  
 
  
 --Average steps by day of week  
@@ -246,3 +246,4 @@ ORDER BY 1;
 SELECT  Id,AVG(TotalSteps) AS avg_total_steps 
 FROM `portfolioprojects2023.bellabeat.DailyActivity` 
 WHERE TotalSteps <>0 
+GROUP BY Id, TotalSteps;
