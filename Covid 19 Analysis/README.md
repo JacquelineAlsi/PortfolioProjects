@@ -20,4 +20,4 @@ As of February 2023:
 ### Inspiration: 
 This was a guided project as part of the Data Analyst Bootcamp.
 
-[Alex The Analyst](https://public.tableau.com/app/profile/alexander.freberg/viz/CovidDashboardTutorial/Dashboard1)
+[Alex The Analyst](https://github.com/AlexTheAnalyst)
