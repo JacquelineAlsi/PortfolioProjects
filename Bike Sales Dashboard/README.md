@@ -2,6 +2,8 @@
 
 Explored bike sales data to determine how demographics such as income, gender, age, occupation and various others influenced consumer bike purchasing decisions. Used Excel tools to clean and manipulate the data, created pivot tables and an interactive Dashboard. View the interactive [Bike Sales Dashboard](https://1drv.ms/x/s!AnML4tgV0jQmgpJ59qHvaRUE9mLliA). 
 
+![bike](https://github.com/JacquelineAlsi/PortfolioProjects/assets/126612115/57c2f58f-f347-4ea0-8844-d6237378642b)
+
 ### Insights: 
 
 - Customers who purchase bikes have a higher average income than those who don't 
