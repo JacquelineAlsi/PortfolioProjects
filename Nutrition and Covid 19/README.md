@@ -38,7 +38,7 @@ Note that these are general guidelines:
 - It does not distinguish between proccessed food and food in it's whole form.
 - It does not distinguish between organic, grass fed, pasture raised etc. and conventionally grown food.
 
-- ### Data Source: 
+### Data Source: 
 
 [COVID-19 Healthy Diet](https://www.kaggle.com/datasets/mariaren/covid19-healthy-diet-dataset) 
 
