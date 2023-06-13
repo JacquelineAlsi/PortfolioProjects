@@ -1,6 +1,6 @@
 #  Seattle Airbnb Listings
 
-Exploring and visualizing Seattle Airbnb Listing data in Tableau. Analyzing this data will help me come up with suggestions for someone wanting to become a host in the Seattle area. The potential host wants to maximize profits and be able to live in the Airbnb rental during the down season. The interactive Tableau Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/LisingsSeattleAirbnb/Dashboard1). This was a guided portfolio project as part of the Data Analyst Bootcamp. 
+Exploring and visualizing Seattle Airbnb Listing data in Tableau. Analyzing this data will help me come up with suggestions for someone wanting to become a host in the Seattle area. The potential host wants to maximize profits and be able to live in the Airbnb rental during the down season. The interactive Tableau Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/LisingsSeattleAirbnb/Dashboard1).  
 
  
 
@@ -32,5 +32,6 @@ Exploring and visualizing Seattle Airbnb Listing data in Tableau. Analyzing this
 - The best time of year to rent the listing is during the summer and holiday months. 
 
 ### Data Source and Inspiration:  
+This was a guided portfolio project as part of the Data Analyst Bootcamp.
 
 [Seattle Airbnb 2016 Data](https://www.kaggle.com/datasets/alexanderfreberg/airbnb-listings-2016-dataset) 
