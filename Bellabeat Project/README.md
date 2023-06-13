@@ -10,9 +10,11 @@ The Google Analytics Capstone Project - Bellabeat has a variety of wellness prod
 
 - The participants were mostly sedentary and with a small amount of light activity throughout the week 
 
+![steps](https://github.com/JacquelineAlsi/PortfolioProjects/assets/126612115/7f59fca2-2f81-4bb4-bac2-c3cfb234bfe0)
+
 - Time to fall asleep was 35-40 minutes on average during weekdays and Saturdays. On Sundays it took them 51 minutes to fall asleep. 
 
- 
+ ![sleep](https://github.com/JacquelineAlsi/PortfolioProjects/assets/126612115/c3331c1a-4588-42f0-b43f-e0b52bb4cf59)
 
 ### Recommendations: 
 
