@@ -1,6 +1,6 @@
 #  Nutrition and Covid 19
 
-The UC Davis Data Visualization with Tableau Specialization Capstone Project - Exploring and visualizing the COVID-19 Healthy Diet Dataset in order to determine how nutritional choices affect Covid 19 outcomes and how healthcare providers can help guide patient's nutritional choices to achieve better outcomes if infected with covid 19. 
+The UC Davis Data Visualization with Tableau Specialization Capstone Project - Exploring and visualizing the COVID-19 Healthy Diet Dataset in order to determine how nutritional choices affect Covid 19 outcomes and how healthcare providers can help guide patient's nutritional choices to achieve better outcomes if infected with covid 19. Data cleaning was conducted in Excel and exploration/visualization in Tableau.
 
 Two personas were created for this project: 
   - The stakeholder is a hospital administrator who is trying to come up with a plan to help reduce Covid 19 severity and negative outcomes. She will present the findings to the audience. 
