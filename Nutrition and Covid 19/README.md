@@ -6,7 +6,7 @@ Two personas were created for this project:
   - The stakeholder is a hospital administrator who is trying to come up with a plan to help reduce Covid 19 severity and negative outcomes. She will present the findings to the audience. 
   - Audience/ Subject-matter experts: The final presentation is intended for the heads of the Medical, Nursing and Dietary departments at the hospital. This will dictate what the members of each department will tell their patients when it comes to diet and Covid 19.
 
-The Tableau Story/Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/NutritionandCovid19/Story1)
+### The Tableau Story/Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/NutritionandCovid19/Story1)
 
 ### Insights:
 - Countries with higher Obesity Rates have overall higher death rates.
