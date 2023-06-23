@@ -1,6 +1,7 @@
 # Netflix Analysis 
 
-Exploring and visualizing Netflix movie and tv show data in Tableau in this guided project. The data contains movies and tv shows added to Netflix between 2008 and 2021. The interactive Tableau Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/Netflix_16805528926780/Dashboard1).  
+Exploring and visualizing Netflix movie and tv show data in Tableau in this guided project. The data contains movies and tv shows added to Netflix between 2008 and 2021. 
+### The interactive Tableau Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/Netflix_16805528926780/Dashboard1).  
 
 ### Insights: 
 
