@@ -20,7 +20,7 @@ The Google Analytics Capstone Project - Bellabeat has a variety of wellness prod
 
 ### Recommendations: 
 
-- Bellabeat should concentrate more on step tracking and sleep tracking/hygiene products since those have been the more popular Google search terms in recent years 
+- Bellabeat should promote step tracking and sleep tracking/hygiene products since those have been the more popular Google search terms in recent years 
 
 - They could have customers set weekly activity, step and sleep goals starting on Sundays, since that's the day they take the least amount of steps, take longer to fall asleep and sleep the most 
 
