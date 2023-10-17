@@ -32,7 +32,7 @@ The medical staff should advise patients to:
   - Replace animal fats with vegetable oils.
 
 The medical staff should also help obese patients create a plan so they can achieve a healthy weight.
-
+### Data Limitations:
 Note that these are general guidelines:
 - The data groups all foods in their respective categories.
 - It does not distinguish for instance between 'healthy' oils such as olive and avocado and 'inflammatory' oils such as cottonseed and partially hydrogenated oils. 
