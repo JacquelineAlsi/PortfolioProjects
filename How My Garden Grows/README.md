@@ -11,4 +11,4 @@ Which sowing and growing methods do I use the most?
 So, I can stock up on materials for next year.  
 
 Where do I need to concentrate my efforts in terms of pest control?  
-### The Tableau Story/Dashboard can be found [HERE](https://jacquelinealsi.github.io/)  
+### The Tableau Story/Dashboard can be found [HERE](https://jacquelinealsi.github.io/style="color: blue" target="_blank")  
