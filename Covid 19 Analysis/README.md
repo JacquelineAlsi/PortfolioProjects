@@ -13,8 +13,8 @@ As of February 2023:
 - The United States ranks 1st with a death count of 1,119,560 
 - January 15, 2023 was the date with the greatest percentage of global deaths 
 
-![map](https://user-images.githubusercontent.com/126612115/234630441-436f6285-af33-4a9e-aaee-95423d55ed85.png)
-![continent](https://user-images.githubusercontent.com/126612115/234630520-1096ab9a-13bb-40ea-a8e0-b7813a6ba95f.png)
+![map](https://github.com/JacquelineAlsi/PortfolioProjects/assets/126612115/b0d9213d-7dad-4b19-ac9c-59c0fe327450)
+![continent](https://github.com/JacquelineAlsi/PortfolioProjects/assets/126612115/09903025-0950-4b49-ad31-eec511e116ae)
 
 ### Data Source: 
 [Our World in Data](https://ourworldindata.org/covid-deaths)
