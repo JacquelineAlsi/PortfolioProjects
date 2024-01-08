@@ -1,7 +1,7 @@
 # Covid 19 Analysis 
 
 Data cleaning was conducted in Excel, exploration in SQL (Microsoft SQL Server Management Studio) and visualization in Tableau. This analysis uses Covid death and vaccination data between January 2020 and February 2023.
-### Tableau Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/Covid19Project_16783050797590/Dashboard)
+### Tableau Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/Covid19Analysis_17047489003620/Dashboard?publish=yes)
  
 
 ### Insights: 
