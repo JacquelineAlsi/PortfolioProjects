@@ -1,7 +1,7 @@
 #  Superstore Sales Analysis 
 
 Exploring and visualizing Tableau sample data for a fictitious Superstore. They sell products across the United States in 3 categories (furniture, office supplies and technology) and in 3 segments (consumer, corporate and home office). Board members are concerned that the discount policy is being abused and would like to know if these discounts are leading to more or less profitable sales. 
-### The Tableau Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/SuperstoreSales_16808929729910/Dashboard1).  
+### The Tableau Dashboard can be found [HERE](https://public.tableau.com/app/profile/jacqueline.alsina/viz/SuperstoreSales_16808929729910/Story1)  
 
 ### Insights: 
 
