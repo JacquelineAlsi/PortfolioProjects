@@ -4,5 +4,5 @@ The UC Davis Data Visualization with Tableau Specialization Capstone Project - E
 
 Data cleaning was conducted in Excel and exploration/visualization in Tableau.
 
-### The Full Project can be found on my [Portfolio](https://jacquelinealsi.github.io)  
+### The Full Project can be found on my [Portfolio](https://jacquelinealsi.github.io/Nutrition-and-Covid19)
 
