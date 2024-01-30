@@ -31,8 +31,8 @@ SELECT
   , Summer_Heat_Tolerant AS Most_Heat_Tolerant 
 FROM `portfolioprojects2023.my_garden.garden` 
 WHERE Summer_Heat_Tolerant = CAST('true' AS bool) 
- AND Pests_Small = 'none' 
- AND Pests_Large = 'none'; 
+   AND Pests_Small = 'none' 
+   AND Pests_Large = 'none'; 
 
  
 --Which plant varieties have the most amount of pests 
@@ -43,7 +43,7 @@ SELECT
   , Pests_ Large 
 FROM `portfolioprojects2023.my_garden.garden` 
 WHERE Pests_Small != 'none' 
- AND Pests_Large != 'none'; 
+   AND Pests_Large != 'none'; 
  
 
 --Which are the most common small pests in the garden 
@@ -138,7 +138,7 @@ SELECT
   , Productivity    
 FROM `portfolioprojects2023.my_garden.garden`  
 WHERE Taste = 'really good'  
- AND Productivity = 'very productive' 
+   AND Productivity = 'very productive' 
 LIMIT 10;  
 --varieties from the categories okra, herbs, greens and tomatoes should be grown 
  
@@ -151,7 +151,7 @@ SELECT
   , Productivity   
 FROM `portfolioprojects2023.my_garden.garden` 
 WHERE Taste IN('so-so','bad') 
-AND Productivity = 'not productive'; 
+    AND Productivity = 'not productive'; 
 --Turkish Orange Eggplant is a variety that I should not grow again 
  
  
@@ -183,19 +183,21 @@ SELECT
   , G.Variety
   , Price_per_lb 
 FROM `portfolioprojects2023.my_garden.garden` AS G 
-JOIN `portfolioprojects2023.my_garden.prices` AS P 
-ON G.Variety = P.Variety 
+    JOIN `portfolioprojects2023.my_garden.prices` AS P 
+    ON G.Variety = P.Variety 
 WHERE Pests_Small = 'none'  
- AND Pests_Large = 'none' 
- AND Disease = 'none' 
- AND Taste IN('really good','good') 
- AND Productivity IN ('very productive','productive') 
- AND Price_per_lb > 5 
+   AND Pests_Large = 'none' 
+   AND Disease = 'none' 
+   AND Taste IN('really good','good') 
+   AND Productivity IN ('very productive','productive') 
+   AND Price_per_lb > 5 
 ORDER BY Price_per_lb DESC; 
 --herbs and greens are crops that I should always grow 
  
 
 --which crops should I not grow again 
-SELECT Plant_Category,Variety 
+SELECT 
+  Plant_Category
+  ,Variety 
 FROM `portfolioprojects2023.my_garden.garden`  
 WHERE Grown_Again = 'no'; 
