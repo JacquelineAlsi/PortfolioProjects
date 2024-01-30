@@ -1,3 +1,5 @@
+--Exploring the days to harvest of plants I grew 
+
 --Which plant varieties have the shortest and longest days to harvest 
 SELECT Plant_Category, Variety, Days_to_Harvest 
 FROM `portfolioprojects2023.my_garden.garden` 
@@ -13,6 +15,7 @@ ORDER BY Days_to_Harvest DESC;
 SELECT ROUND(AVG(Days_to_Harvest)) AS Avg_Harvest_Days 
 FROM `portfolioprojects2023.my_garden.garden`; 
 
+--Exploring pests and diseases in my garden 
 
  --Which plant varieties are the most heat tolerant and have the least amount of pests 
 SELECT Plant_Category, Variety, Summer_Heat_Tolerant AS Most_Heat_Tolerant 
@@ -51,35 +54,7 @@ FROM `portfolioprojects2023.my_garden.garden`
 GROUP BY Disease 
 ORDER BY Count DESC; 
 
-
---Which are the most productive and best tasting plant varieties 
-SELECT DISTINCT Taste,   
-FROM `portfolioprojects2023.my_garden.garden`; 
---There are 4 categories of taste: really good, good, bad and so-so 
- 
-
-SELECT DISTINCT Productivity   
-FROM `portfolioprojects2023.my_garden.garden`; 
---There are 3 categories of taste: very productive, productive and not productive 
- 
-
-SELECT Plant_Category, Variety, Taste, Productivity    
-FROM `portfolioprojects2023.my_garden.garden`  
-
- 
-WHERE Taste = 'really good'  
-AND Productivity = 'very productive' 
-LIMIT 10;  
---varieties from the categories okra, herbs, greens and tomatoes should be grown 
- 
-
---Which are the least productive and not good tasting plant varieties 
-SELECT Plant_Category, Variety, Taste, Productivity   
-FROM `portfolioprojects2023.my_garden.garden` 
-WHERE Taste IN('so-so','bad') 
-AND Productivity = 'not productive'; 
---Turkish Orange Eggplant is a variety that I should not grow again 
- 
+--How do my plants grow 
 
 -Which is the most common sowing method  
 SELECT Sow_Method, COUNT(Sow_Method) AS Count 
@@ -112,6 +87,37 @@ GROUP BY Location
 ORDER BY Count DESC; 
 --most plants are grown in partial sun 
 
+
+--Which plants I should grow?
+
+--Which are the most productive and best tasting plant varieties 
+SELECT DISTINCT Taste,   
+FROM `portfolioprojects2023.my_garden.garden`; 
+--There are 4 categories of taste: really good, good, bad and so-so 
+ 
+
+SELECT DISTINCT Productivity   
+FROM `portfolioprojects2023.my_garden.garden`; 
+--There are 3 categories of taste: very productive, productive and not productive 
+ 
+
+SELECT Plant_Category, Variety, Taste, Productivity    
+FROM `portfolioprojects2023.my_garden.garden`  
+
+ 
+WHERE Taste = 'really good'  
+AND Productivity = 'very productive' 
+LIMIT 10;  
+--varieties from the categories okra, herbs, greens and tomatoes should be grown 
+ 
+
+--Which are the least productive and worst tasting plant varieties 
+SELECT Plant_Category, Variety, Taste, Productivity   
+FROM `portfolioprojects2023.my_garden.garden` 
+WHERE Taste IN('so-so','bad') 
+AND Productivity = 'not productive'; 
+--Turkish Orange Eggplant is a variety that I should not grow again 
+ 
  
 --Which are the top 10 most expensive per lb at the supermarket 
 SELECT Plant_Category, Variety, Price_per_lb 
