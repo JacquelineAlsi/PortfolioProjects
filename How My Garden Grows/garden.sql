@@ -177,7 +177,8 @@ LIMIT 10;
 --carrots are the cheapest per lb 
 
  
---Which crops are the tastiest, productive, have the least pest/disease and most expensive to buy at the supermarket 
+/*Which crops are the tastiest, productive, have the least pest/disease 
+and most expensive to buy at the supermarket*/
 SELECT 
   G.Plant_Category
   , G.Variety
