@@ -5,8 +5,10 @@ SELECT
 FROM `portfolioprojects2023.bellabeat.INFORMATION_SCHEMA.COLUMNS`  
 GROUP BY 1 
 ORDER BY 2 DESC;  
+--Id is the only column name shared across tables
 
- -- Id is a common column, let's make sure that it is in every table we have  
+
+--Id is a common column, let's make sure that it is in every table we have  
 SELECT 
   table_name
  , SUM(CASE  
@@ -25,12 +27,12 @@ ORDER BY 1;
 SELECT 
   COUNT(DISTINCT id) AS number_of_ids 
 FROM `portfolioprojects2023.bellabeat.SleepDay`;  
- 
+
 
 SELECT 
   COUNT(DISTINCT id) AS number_of_ids 
 FROM `portfolioprojects2023.bellabeat.minuteSleep`; 
- 
+
 
 SELECT 
   COUNT(DISTINCT id) AS number_of_ids 
@@ -56,6 +58,7 @@ AS has_time_info
 FROM `portfolioprojects2023.bellabeat.INFORMATION_SCHEMA.COLUMNS` 
 WHERE data_type IN ("TIMESTAMP","DATETIME", "DATE") 
 GROUP BY 1; 
+--They all do
 
  
 --Looking at the columns that are shared among the tables  
@@ -86,6 +89,7 @@ SELECT
   , ROUND(AVG(TotalTimeInBed - TotalMinutesAsleep)) As min_to_sleep   
 FROM time_to_sleep 
 GROUP BY 1; 
+--Monday 38.0, Tuesday 39.0, Wednesday 35.0, Thursday 34.0, Friday 40.0, Saturday 41.0, Sunday 51.0
 
  
 --How many hours do participants sleep on average by day of the week?  
@@ -99,7 +103,8 @@ SELECT
   , ROUND(AVG(TotalMinutesAsleep/60),1) As hours_asleep    
 FROM sleep_length  
 GROUP BY day_of_week; 
-
+--Monday 7.0, Tuesday 6.7, 	Wednesday 7.2, Thursday 6.7, Friday 6.8, Saturday 7.0, Sunday 7.5
+	
  
 --Minimum and Maximum hours participants slept 
 SELECT 
@@ -167,6 +172,7 @@ SELECT
   , ROUND(AVG(TotalSteps)) AS steps    
 FROM avg_steps_day  
 GROUP BY 1; 
+--Monday 7781.0, Tuesday 8125.0, 	Wednesday 7559.0, Thursday 7406.0, Friday 7448.0, Saturday 8153.0, Sunday 6933.0
 
  
  --How does activity level affect amount of sleep? 
@@ -281,8 +287,8 @@ ORDER BY 6;
 --What was their minimum and maximum weight? 
 SELECT
   Id
-  ROUND(MIN(WeightPounds),1) AS min_weight 
-  ROUND(MAX(WeightPounds),1) AS max_weight 
+,  ROUND(MIN(WeightPounds),1) AS min_weight 
+,  ROUND(MAX(WeightPounds),1) AS max_weight 
 FROM `portfolioprojects2023.bellabeat.WeightLogInfo`  
 GROUP BY 1 
 ORDER BY 1; 
