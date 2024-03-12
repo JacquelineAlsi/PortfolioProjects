@@ -103,7 +103,7 @@ SELECT
   , ROUND(AVG(TotalMinutesAsleep/60),1) As hours_asleep    
 FROM sleep_length  
 GROUP BY day_of_week; 
---Monday 7.0, Tuesday 6.7, 	Wednesday 7.2, Thursday 6.7, Friday 6.8, Saturday 7.0, Sunday 7.5
+--Monday 7.0, Tuesday 6.7, Wednesday 7.2, Thursday 6.7, Friday 6.8, Saturday 7.0, Sunday 7.5
 	
  
 --Minimum and Maximum hours participants slept 
@@ -172,7 +172,7 @@ SELECT
   , ROUND(AVG(TotalSteps)) AS steps    
 FROM avg_steps_day  
 GROUP BY 1; 
---Monday 7781.0, Tuesday 8125.0, 	Wednesday 7559.0, Thursday 7406.0, Friday 7448.0, Saturday 8153.0, Sunday 6933.0
+--Monday 7781.0, Tuesday 8125.0, Wednesday 7559.0, Thursday 7406.0, Friday 7448.0, Saturday 8153.0, Sunday 6933.0
 
  
  --How does activity level affect amount of sleep? 
