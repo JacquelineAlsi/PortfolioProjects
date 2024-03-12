@@ -33,7 +33,9 @@ SELECT
 FROM `portfolioprojects2023.MavenToys.products`   
 GROUP BY Product_Category 
 ORDER BY product_count DESC; 
---There are 5 categories: Toys, Games, Arts & crafts, Sports & Outdoors and Electronics. The first 4 have about the same number of products ~8. And Electronics only has 3 products. 
+/*There are 5 categories: Toys, Games, Arts & crafts, Sports & Outdoors
+and Electronics. The first 4 have about the same number of products ~8.
+  And Electronics only has 3 products.*/
 
  
 --How many stores are there, and which cities contain stores? 
@@ -53,7 +55,8 @@ SELECT
 FROM `portfolioprojects2023.MavenToys.stores`  
 GROUP BY Store_Location 
 ORDER BY location_type DESC; 
---There are 4 location types (Airport, Residential, Downtown and commercial) with Downtown (with 29 stores) and commercial (with 12 stores) being most popular. 
+--There are 4 location types (Airport, Residential, Downtown and commercial) 
+with Downtown (with 29 stores) and commercial (with 12 stores) being most popular. 
 
  
 --In order to narrow down potential locations let's find the 3 cities with the most sales. 
@@ -71,7 +74,8 @@ LIMIT 3;
 --Cuidad de Mexico has $1,649,492 in sales, Guadalajara has $1,322,099 and Monterrey has $1,261,846 
 
  
---Since some cities have multiple stores, let's look at the stores with the overall best performance, the cities they are in and their location type.  
+/*Since some cities have multiple stores, let's look at the stores with the overall best performance, 
+the cities they are in and their location type.*/
 SELECT  
   st.Store_Name
   , st.Store_City
@@ -91,7 +95,8 @@ Maven Toys Toluca 1, Toluca, Downtown, $411,157
 Maven Toys Monterrey 2, Monterrey, Downtown, $372,999 
 
  
---Since the top 2 stores are located at airports, look at Toluca and Monterrey to see if they don't have any stores at airports for possible expansion. 
+/*Since the top 2 stores are located at airports, look at Toluca and Monterrey 
+  to see if they don't have any stores at airports for possible expansion.*/
 SELECT 
   Store_Name
   , Store_City
